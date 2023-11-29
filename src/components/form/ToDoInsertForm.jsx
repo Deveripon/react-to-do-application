@@ -8,7 +8,7 @@ const ToDoInsertForm = () => {
         <>
             <section className="todoInsertSection bg-gray-200 mt-[1px] flex justify-center items-center py-6">
                 <input
-                    className="w-96 outline-none border-none px-4 py-2 rounded-tl-2xl rounded-bl-2xl text-teal-500 "
+                    className="md:w-96 w-46 outline-none border-none px-4 py-2 rounded-tl-2xl rounded-bl-2xl text-teal-500 "
                     type="text"
                     name="todo"
                     id="todo"
