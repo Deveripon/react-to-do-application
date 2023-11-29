@@ -29,7 +29,7 @@ const Home = () => {
                         return (
                             <div
                                 key={index}
-                                className="todo md:w-[50vw] w-full mx-3 bg-white py-3 px-8 my-1 flex justify-between items-center gap-4">
+                                className="todo rounded-md md:w-[50vw] w-[calc(100%_-_20px)]  bg-white py-3 px-8 my-1 flex justify-between items-center gap-4">
                                 <p className="text-teal-500 font-subHeading ">{item}</p>
                                 <div className="button-group flex gap-2">
                                     <button className="bg-green-500 text-white px-2 py-2 rounded-full transform duration-150 hover:bg-green-700">
