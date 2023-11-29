@@ -20,8 +20,8 @@ const ToDoInsertForm = () => {
                 />
                 <button
                     onClick={todoHandler}
-                    className="flex justify-center items-center gap-2 px-4 py-2 rounded-tr-2xl rounded-br-2xl  hover:bg-teal-700 text-white transition-all transform duration-150  bg-teal-500">
-                    <MdAddTask /> Add to-do
+                    className="flex justify-center items-center gap-1 px-4 py-2 rounded-tr-2xl rounded-br-2xl  hover:bg-teal-700 text-white transition-all transform duration-150  bg-teal-500">
+                    <MdAddTask /> Add todo
                 </button>
             </section>
         </>
